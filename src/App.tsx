@@ -8,7 +8,8 @@ import { SafeAreaView, StyleSheet } from 'react-native';
 // import X, { Comp1, Comp2 } from './components/Multi';
 // import Titulo from './components/Titulo';
 // import Contador from './components/Contador';
-import Pai from './direta/Pai';
+// import Pai from './direta/Pai';
+import Pai from './indireta/Pai';
 
 export default () => (
     <SafeAreaView style={style.App}>
@@ -27,7 +28,8 @@ export default () => (
         <X />
         <Comp1 />
         <Comp2 /> */}
-        <Pai></Pai>
+        {/* <Pai/> */}
+        <Pai/>
     </SafeAreaView>
 );
 
