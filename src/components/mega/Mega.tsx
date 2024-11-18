@@ -5,7 +5,7 @@ import estilo from "../estilo";
 export default class Mega extends Component {
     render () {
         return (
-            <Text style = {estilo.fontG}> Gerador de Mega-Sena</Text>
-        )
+            <Text style = {estilo.fontG}> Gerador de Mega-Sena {this.props.qtdNumeros}</Text>
+        );
     }
 }
