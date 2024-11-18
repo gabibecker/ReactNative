@@ -1,7 +1,7 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
 
-import ContadorV2 from './contador/ContadorV2';
+// import ContadorV2 from './contador/ContadorV2';
 // import Botão from './components/Botão';
 // import Aleatorio from './components/Aleatorio';
 // import MinMax from './components/MinMax';
@@ -11,10 +11,14 @@ import ContadorV2 from './contador/ContadorV2';
 // import Contador from './components/Contador';
 // import Pai from './direta/Pai';
 // import Pai from './indireta/Pai';
+// import Diferenciar from './components/Diferenciar';
+import ParImpar from './components/ParImpar';
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <ContadorV2 />
+        <ParImpar num = {3}/>
+        {/* <Diferenciar/> */}
+        {/* <ContadorV2 /> */}
         {/* <Contador inicial={100} passo={2} />
         <Contador/> */}
         {/* <Botão /> */}
